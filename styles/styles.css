@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.hello .firstg {
+  position: absolute;
+  width: 664px;
+  height: 549px;
+  left: 447px;
+  top: 210px;
+}
+
+.hello .firstg .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+.hello .firstg .first .number1 {
+  position: absolute;
+  width: 82px;
+  height: 150px;
+  left: 447px;
+  top: 210px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 150px;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.hello .secondg .sidenave {
+  font-family: "Poppins";
+  position: absolute;
+  width: 24px;
+  height: 388px;
+  left: 1358px;
+  top: 267px;
+}
+
+.hello .secondg .sidenave .alink1 {
+  width: 39px;
+  height: 24px;
+  left: 1382px;
+  top: 267px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #FFFFFF;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.hello .secondg .sidenave .alink2 {
+  width: 66px;
+  height: 24px;
+  left: 1382px;
+  top: 356px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #FFFFFF;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.hello .secondg .sidenave .alink3 {
+  width: 67px;
+  height: 24px;
+  left: 1382px;
+  top: 472px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #FFFFFF;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.hello .secondg .sidenave .alink4 {
+  width: 66px;
+  height: 24px;
+  left: 1382px;
+  top: 589px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #FFFFFF;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.portifolio .pgroup {
+  position: absolute;
+  width: 1440px;
+  height: 1361px;
+  left: 0px;
+  top: 909px;
+}
+
+.portifolio .pgroup .number2 {
+  font-family: "Poppins";
+  position: absolute;
+  width: 116px;
+  height: 80px;
+  left: 169px;
+  top: 909px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 80%;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.portifolio .pgroup .mywork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 621px;
+  height: 185px;
+  left: 169px;
+  top: 909px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,93 @@
+
+.hello {
+  .firstg {
+    position: absolute;
+    width: 664px;
+    height: 549px;
+    left: 447px;
+    top: 210px;
+    .first {
+      @include flex();
+      position: absolute;
+      .number1 {
+        position: absolute;
+        width: 82px;
+        height: 150px;
+        left: 447px;
+        top: 210px;
+
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 100px;
+        line-height: 150px;
+        text-align: right;
+        color: #FFFFFF;
+        opacity: 0.2;
+      }
+    }
+
+  }
+  .secondg {
+    .sidenave {
+      font-family: $primaryFont;
+      position: absolute;
+      width: 24px;
+      height: 388px;
+      left: 1358px;
+      top: 267px;
+      .alink1 {
+        width: 39px;
+        height: 24px;
+        left: 1382px;
+        top: 267px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        color: #FFFFFF;
+        transform: rotate(90deg);
+      }
+      .alink2 {
+        width: 66px;
+        height: 24px;
+        left: 1382px;
+        top: 356px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        color: #FFFFFF;
+        transform: rotate(90deg);
+      }
+      .alink3 {
+        width: 67px;
+        height: 24px;
+        left: 1382px;
+        top: 472px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        color: #FFFFFF;
+        transform: rotate(90deg);
+      }
+      .alink4 {
+        width: 66px;
+        height: 24px;
+        left: 1382px;
+        top: 589px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        color: #FFFFFF;
+        transform: rotate(90deg);
+      }
+    }
+  }    
+}
