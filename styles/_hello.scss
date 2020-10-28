@@ -1,29 +1,94 @@
 
 .hello {
+  @include flex(row);
   .firstg {
-    position: absolute;
-    width: 664px;
-    height: 549px;
-    left: 447px;
-    top: 210px;
+    @include flex(row);
+    
     .first {
-      @include flex();
-      position: absolute;
-      .number1 {
-        position: absolute;
-        width: 82px;
-        height: 150px;
-        left: 447px;
-        top: 210px;
 
+      @include flex(row);
+      margin-top: 5rem;
+      width: 50%;
+      align-items: flex-start;
+      .number1 {
         font-family: $primaryFont;
         font-style: normal;
         font-weight: 200;
-        font-size: 100px;
-        line-height: 150px;
+        font-size: 3rem;
+        line-height: 9rem;
         text-align: right;
         color: #FFFFFF;
         opacity: 0.2;
+        h1 {
+          margin: 0 1rem 3rem 0;
+        }
+      }
+      .myname {
+        @include flex(column);
+        margin-top: 5rem;
+        .helloim {
+          font-family: $primaryFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          align-content: flex-start;
+          align-self: start;
+          color: #FFFFFF;
+          h5 {
+            margin: 0;
+          }
+         
+
+        }
+        .name1 {
+          font-family: $secondryFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 4rem;
+          line-height: 150%;
+          color: #FFFFFF;
+          h1 {
+            margin: 0;
+          }
+          
+        }
+        .about {
+          font-family: $primaryFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 1.7rem;
+          color: #FFFFFF;
+        }
+        .seework {
+          @include flex(row);
+          justify-content: flex-start;
+          
+          width: 100%;
+          .seemywork {
+            font-family: $thirdFont;
+            margin-right: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #DB4747;
+          }
+          .sline {
+            margin-right: 1rem;
+            width: 5rem;
+            border: 1px solid #FFFFFF;
+          }
+          
+          .slinks {
+            @include flex(row); 
+            .image {
+              width: 1.5rem;
+              margin: 0.5rem;
+            }
+          
+          }
+        }
+
       }
     }
 
@@ -31,62 +96,19 @@
   .secondg {
     .sidenave {
       font-family: $primaryFont;
-      position: absolute;
-      width: 24px;
-      height: 388px;
-      left: 1358px;
-      top: 267px;
-      .alink1 {
-        width: 39px;
-        height: 24px;
-        left: 1382px;
-        top: 267px;
+      .alink {
+        
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 5rem;
         text-align: right;
-        color: #FFFFFF;
+        
         transform: rotate(90deg);
       }
-      .alink2 {
-        width: 66px;
-        height: 24px;
-        left: 1382px;
-        top: 356px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: right;
+      a {
+        text-decoration: none;
         color: #FFFFFF;
-        transform: rotate(90deg);
-      }
-      .alink3 {
-        width: 67px;
-        height: 24px;
-        left: 1382px;
-        top: 472px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: right;
-        color: #FFFFFF;
-        transform: rotate(90deg);
-      }
-      .alink4 {
-        width: 66px;
-        height: 24px;
-        left: 1382px;
-        top: 589px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: right;
-        color: #FFFFFF;
-        transform: rotate(90deg);
       }
     }
   }    

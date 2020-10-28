@@ -1,10 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap");
+body {
+  background-color: darkgoldenrod;
+}
+
+@font-face {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hello {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .hello .firstg {
-  position: absolute;
-  width: 664px;
-  height: 549px;
-  left: 447px;
-  top: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .hello .firstg .first {
@@ -14,129 +47,243 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 5rem;
+  width: 50%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .hello .firstg .first .number1 {
-  position: absolute;
-  width: 82px;
-  height: 150px;
-  left: 447px;
-  top: 210px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 200;
-  font-size: 100px;
-  line-height: 150px;
+  font-size: 3rem;
+  line-height: 9rem;
   text-align: right;
   color: #FFFFFF;
   opacity: 0.2;
 }
 
-.hello .secondg .sidenave {
-  font-family: "Poppins";
-  position: absolute;
-  width: 24px;
-  height: 388px;
-  left: 1358px;
-  top: 267px;
+.hello .firstg .first .number1 h1 {
+  margin: 0 1rem 3rem 0;
 }
 
-.hello .secondg .sidenave .alink1 {
-  width: 39px;
-  height: 24px;
-  left: 1382px;
-  top: 267px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: right;
-  color: #FFFFFF;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.hello .secondg .sidenave .alink2 {
-  width: 66px;
-  height: 24px;
-  left: 1382px;
-  top: 356px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: right;
-  color: #FFFFFF;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.hello .secondg .sidenave .alink3 {
-  width: 67px;
-  height: 24px;
-  left: 1382px;
-  top: 472px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: right;
-  color: #FFFFFF;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.hello .secondg .sidenave .alink4 {
-  width: 66px;
-  height: 24px;
-  left: 1382px;
-  top: 589px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: right;
-  color: #FFFFFF;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.portifolio .pgroup {
-  position: absolute;
-  width: 1440px;
-  height: 1361px;
-  left: 0px;
-  top: 909px;
-}
-
-.portifolio .pgroup .number2 {
-  font-family: "Poppins";
-  position: absolute;
-  width: 116px;
-  height: 80px;
-  left: 169px;
-  top: 909px;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 100px;
-  line-height: 80%;
-  text-align: right;
-  color: #FFFFFF;
-  opacity: 0.2;
-}
-
-.portifolio .pgroup .mywork {
+.hello .firstg .first .myname {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  width: 621px;
-  height: 185px;
-  left: 169px;
-  top: 909px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5rem;
+}
+
+.hello .firstg .first .myname .helloim {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  color: #FFFFFF;
+}
+
+.hello .firstg .first .myname .helloim h5 {
+  margin: 0;
+}
+
+.hello .firstg .first .myname .name1 {
+  font-family: "Playerfair";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.hello .firstg .first .myname .name1 h1 {
+  margin: 0;
+}
+
+.hello .firstg .first .myname .about {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7rem;
+  color: #FFFFFF;
+}
+
+.hello .firstg .first .myname .seework {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+.hello .firstg .first .myname .seework .seemywork {
+  font-family: "Roboto";
+  margin-right: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #DB4747;
+}
+
+.hello .firstg .first .myname .seework .sline {
+  margin-right: 1rem;
+  width: 5rem;
+  border: 1px solid #FFFFFF;
+}
+
+.hello .firstg .first .myname .seework .slinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hello .firstg .first .myname .seework .slinks .image {
+  width: 1.5rem;
+  margin: 0.5rem;
+}
+
+.hello .secondg .sidenave {
+  font-family: "Poppins";
+}
+
+.hello .secondg .sidenave .alink {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 5rem;
+  text-align: right;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.hello .secondg .sidenave a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .name2sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.portifolio .pgroup .name2sec .number2 {
+  font-family: "Poppins";
+  text-align: right;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 50px;
+  line-height: 80%;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+  margin-right: 1rem;
+  margin-left: 4rem;
+}
+
+.portifolio .pgroup .name2sec .mywork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5rem;
+}
+
+.portifolio .pgroup .name2sec .mywork .myrecent {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .name2sec .mywork .name2 {
+  font-family: "Playerfair";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 100%;
+  /* identical to box height, or 110px */
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .name2sec .mywork .name2 h1 {
+  margin: 0;
 }
 /*# sourceMappingURL=styles.css.map */
