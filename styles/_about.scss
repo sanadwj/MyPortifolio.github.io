@@ -1,0 +1,145 @@
+.aboutme {
+  margin: 5rem 5rem;
+  display: grid;
+  grid-template: 6fr 3fr/ 3fr 3fr;
+  
+  
+  .skills {
+    height: 30rem;
+    display: grid;
+    grid-template: 120fr 1fr/1fr 1fr;
+    img {
+      margin: 1rem;
+    }
+    .svg {
+      border: 1px none wheat;
+      width: 3.5rem;
+      margin: 0.5rem;
+      border-radius: 50%;
+      background-color: rgba(187, 192, 243, 0.1);
+      box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+      
+      z-index: 1;
+      img {
+        margin: 1rem;
+      }
+    }
+    
+    .fskill {
+      display: grid;
+      
+     
+      
+      .skill1 {
+        background-color: black;
+        margin: 1rem;
+        background: #212123;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+      }
+      .skill2 {
+        background-color: rgb(223, 94, 94);
+        margin: 1rem;
+        background: #212123;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+      }
+    }
+    .sskill {
+      display: grid;
+      
+      .skill3 {
+        background-color: rgb(68, 95, 65);
+        margin: 1rem;
+        background: #212123;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+      }
+      .skill4 {
+        background-color: rgb(32, 21, 94);
+        margin: 1rem;
+        background: #212123;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+      }
+    }
+    
+    
+    
+    
+  }
+  .aabout {
+   
+    margin: 1rem;
+    .number3 {
+      font-family: $primaryFont;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 3rem;
+      line-height: 9rem;
+      text-align: left;
+      color: #FFFFFF;
+      opacity: 0.2;
+      h1 {
+        margin: 0 1rem 0rem 0;
+      }
+    }
+    .mywork {
+      @include flex(column);
+      
+      .myrecent {
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        align-content: flex-start;
+        align-self: start;
+        color: #FFFFFF;
+        h5 {
+          margin: 0;
+        }
+       
+
+      }
+      .name {
+        font-family: $secondryFont;
+        margin-top: 2rem;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3rem;
+        line-height: 150%;
+        color: #FFFFFF;
+        h1 {
+          margin: 0;
+        }
+        
+      }
+      .about {
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.7rem;
+        color: #FFFFFF;
+      }
+      .seework {
+        
+        justify-content: flex-start;
+        
+        width: 100%;
+        .seemywork {
+          @include flex(row);
+          font-family: $thirdFont;
+          margin-right: 1rem;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          color: #DB4747;
+        }
+        
+        
+        
+      }
+    }
+  }
+}

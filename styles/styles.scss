@@ -1,7 +1,8 @@
 
 
 body {
-  background-color: darkgoldenrod;
+  background: #212123;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   margin: 0;
  
 }
@@ -19,5 +20,7 @@ body {
 @import './hello';
 
 
-@import './portifolio'
+@import './portifolio';
+
+@import './about'
 

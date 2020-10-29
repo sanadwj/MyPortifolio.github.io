@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap");
 body {
-  background-color: darkgoldenrod;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   margin: 0;
 }
 
@@ -333,5 +335,192 @@ body {
 
 .portifolio .pgroup .boxes .box6 {
   background-color: #6f4f7e;
+}
+
+.aboutme {
+  margin: 5rem 5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 6fr 3fr;
+  -ms-grid-columns: 3fr 3fr;
+      grid-template: 6fr 3fr/ 3fr 3fr;
+}
+
+.aboutme .skills {
+  height: 30rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 120fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template: 120fr 1fr/1fr 1fr;
+}
+
+.aboutme .skills img {
+  margin: 1rem;
+}
+
+.aboutme .skills .svg {
+  border: 1px none wheat;
+  width: 3.5rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background-color: rgba(187, 192, 243, 0.1);
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.aboutme .skills .svg img {
+  margin: 1rem;
+}
+
+.aboutme .skills .fskill {
+  display: -ms-grid;
+  display: grid;
+}
+
+.aboutme .skills .fskill .skill1 {
+  background-color: black;
+  margin: 1rem;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.aboutme .skills .fskill .skill2 {
+  background-color: #df5e5e;
+  margin: 1rem;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.aboutme .skills .sskill {
+  display: -ms-grid;
+  display: grid;
+}
+
+.aboutme .skills .sskill .skill3 {
+  background-color: #445f41;
+  margin: 1rem;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.aboutme .skills .sskill .skill4 {
+  background-color: #20155e;
+  margin: 1rem;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.aboutme .aabout {
+  margin: 1rem;
+}
+
+.aboutme .aabout .number3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 3rem;
+  line-height: 9rem;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.aboutme .aabout .number3 h1 {
+  margin: 0 1rem 0rem 0;
+}
+
+.aboutme .aabout .mywork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutme .aabout .mywork .myrecent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  color: #FFFFFF;
+}
+
+.aboutme .aabout .mywork .myrecent h5 {
+  margin: 0;
+}
+
+.aboutme .aabout .mywork .name {
+  font-family: "Playerfair";
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.aboutme .aabout .mywork .name h1 {
+  margin: 0;
+}
+
+.aboutme .aabout .mywork .about {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7rem;
+  color: #FFFFFF;
+}
+
+.aboutme .aabout .mywork .seework {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+.aboutme .aabout .mywork .seework .seemywork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Roboto";
+  margin-right: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #DB4747;
 }
 /*# sourceMappingURL=styles.css.map */
