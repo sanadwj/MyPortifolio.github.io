@@ -1,14 +1,13 @@
 .portifolio {
-
   .pgroup {
-  
+    margin: 0;
     .name2sec {
+      margin-right: 0;
       @include flex(row);
       justify-content: flex-start;
       align-items: flex-start;
       margin-top: 3rem;
       .number2 {
-        
         font-family: $primaryFont;
         text-align: right;
         font-style: normal;
@@ -16,7 +15,7 @@
         font-size: 50px;
         line-height: 80%;
         text-align: right;
-        color: #FFFFFF;
+        color: #ffffff;
         opacity: 0.2;
         margin-right: 1rem;
         margin-left: 4rem;
@@ -31,30 +30,57 @@
           font-weight: normal;
           font-size: 16px;
           line-height: 24px;
-          color: #FFFFFF;
-          
+          color: #ffffff;
         }
         .name2 {
-         
           font-family: $secondryFont;
           font-style: normal;
           font-weight: normal;
           font-size: 2.5rem;
           line-height: 100%;
           /* identical to box height, or 110px */
-  
-  
-          color: #FFFFFF;
+
+          color: #ffffff;
           h1 {
             margin: 0;
           }
-  
-          
         }
-        
       }
     }
-    
-  }
+    .boxes {
+      margin-top: 4rem;
+     
+      display: grid;
+      grid-template: 3fr 3fr/ 3fr 3fr;
+      .box1 {
+        background-color: black;
+        height: 25rem;
+      }
+      .fbox {
+        display: grid;
+        grid-template: 2fr 3fr;
 
+        .box2 {
+          background-color: rgb(156, 86, 86);
+        }
+        .box3 {
+          background-color: rgb(102, 121, 34);
+        }
+      }
+      .sbox {
+        display: grid;
+        grid-template: 3fr 2fr;
+        .box4 {
+          background-color: rgb(77, 108, 248);
+        }
+
+        .box5 {
+          background-color: rgb(161, 212, 189);
+        }
+      }
+      .box6 {
+        background-color: rgb(111, 79, 126);
+      }
+    }
+  }
 }
