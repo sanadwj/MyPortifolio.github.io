@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap");
-body {
-  background: #212123;
+body, html {
+  z-index: -2;
+  background: #1b1b1d;
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-  margin: 0;
+  margin: 0 auto;
 }
 
 .hello {
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,11 +210,17 @@ body {
   color: #FFFFFF;
 }
 
+.portifolio {
+  -webkit-box-shadow: 0px 2px -24px rgba(0, 0, 0, 0);
+          box-shadow: 0px 2px -24px rgba(0, 0, 0, 0);
+}
+
 .portifolio .pgroup {
   margin: 0;
 }
 
 .portifolio .pgroup .name2sec {
+  z-index: 5;
   margin-right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -235,6 +245,7 @@ body {
 }
 
 .portifolio .pgroup .name2sec .number2 {
+  z-index: 5;
   font-family: "Poppins";
   text-align: right;
   font-style: normal;
@@ -249,6 +260,7 @@ body {
 }
 
 .portifolio .pgroup .name2sec .mywork {
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,6 +290,7 @@ body {
 }
 
 .portifolio .pgroup .name2sec .mywork .name2 {
+  z-index: 5;
   font-family: "Playerfair";
   font-style: normal;
   font-weight: normal;
@@ -292,6 +305,7 @@ body {
 }
 
 .portifolio .pgroup .boxes {
+  z-index: 5;
   margin-top: 4rem;
   display: -ms-grid;
   display: grid;
@@ -338,6 +352,7 @@ body {
 }
 
 .aboutme {
+  z-index: 5;
   margin: 5rem 5rem;
   display: -ms-grid;
   display: grid;
@@ -347,7 +362,8 @@ body {
 }
 
 .aboutme .skills {
-  height: 30rem;
+  font-family: "Poppins";
+  height: 6rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 120fr 1fr;
@@ -357,13 +373,14 @@ body {
 
 .aboutme .skills img {
   margin: 1rem;
+  height: 2rem;
 }
 
 .aboutme .skills .svg {
   border: 1px none wheat;
-  width: 3.5rem;
+  width: 4rem;
   margin: 0.5rem;
-  border-radius: 50%;
+  border-radius: 25%;
   background-color: rgba(187, 192, 243, 0.1);
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
@@ -388,6 +405,16 @@ body {
   border-radius: 4px;
 }
 
+.aboutme .skills .fskill .skill1 .to {
+  color: white;
+  margin: 0 1rem;
+}
+
+.aboutme .skills .fskill .skill1 .in ul {
+  color: white;
+  list-style: none;
+}
+
 .aboutme .skills .fskill .skill2 {
   background-color: #df5e5e;
   margin: 1rem;
@@ -395,6 +422,16 @@ body {
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+}
+
+.aboutme .skills .fskill .skill2 .to {
+  color: white;
+  margin: 0 1rem;
+}
+
+.aboutme .skills .fskill .skill2 .in ul {
+  color: white;
+  list-style: none;
 }
 
 .aboutme .skills .sskill {
@@ -411,6 +448,16 @@ body {
   border-radius: 4px;
 }
 
+.aboutme .skills .sskill .skill3 .to {
+  color: white;
+  margin: 0 1rem;
+}
+
+.aboutme .skills .sskill .skill3 .in ul {
+  color: white;
+  list-style: none;
+}
+
 .aboutme .skills .sskill .skill4 {
   background-color: #20155e;
   margin: 1rem;
@@ -418,6 +465,16 @@ body {
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+}
+
+.aboutme .skills .sskill .skill4 .to {
+  color: white;
+  margin: 0 1rem;
+}
+
+.aboutme .skills .sskill .skill4 .in ul {
+  color: white;
+  list-style: none;
 }
 
 .aboutme .aabout {
@@ -522,5 +579,120 @@ body {
   font-weight: 500;
   font-size: 18px;
   color: #DB4747;
+}
+
+.contact {
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+}
+
+.contact .forth {
+  width: 50%;
+  margin: 3rem 0 5rem 0;
+}
+
+.contact .forth .num4sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact .forth .num4sec .number4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 3rem;
+  line-height: 9rem;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.contact .forth .num4sec .number4 h1 {
+  margin: 0 1rem 3rem 0;
+}
+
+.contact .forth .num4sec .mywork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5rem;
+}
+
+.contact .forth .num4sec .mywork .myrecent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  color: #FFFFFF;
+}
+
+.contact .forth .num4sec .mywork .myrecent h5 {
+  margin: 0;
+}
+
+.contact .forth .num4sec .mywork .name1 {
+  font-family: "Playerfair";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.contact .forth .num4sec .mywork .name1 h1 {
+  margin: 0;
+}
+
+.contact .forth .num4sec .mywork .about {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7rem;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=styles.css.map */

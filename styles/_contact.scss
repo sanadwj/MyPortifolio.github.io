@@ -1,0 +1,76 @@
+.contact {
+  z-index: 5;
+  @include flex(column);
+ 
+  
+  background: #212123;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  .forth {
+    width: 50%;
+    margin: 3rem 0 5rem 0;
+    .num4sec {
+      @include flex(row);
+      align-items: flex-start;
+      .number4 {
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 3rem;
+        line-height: 9rem;
+        text-align: right;
+        color: #FFFFFF;
+        opacity: 0.2;
+        h1 {
+          margin: 0 1rem 3rem 0;
+        }
+      }
+      .mywork {
+        @include flex(column);
+        margin-top: 5rem;
+        .myrecent {
+          font-family: $primaryFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          align-content: flex-start;
+          align-self: start;
+          color: #FFFFFF;
+          h5 {
+            margin: 0;
+          }
+        
+    
+        }
+        .name1 {
+          font-family: $secondryFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 4rem;
+          line-height: 150%;
+          color: #FFFFFF;
+          h1 {
+            margin: 0;
+          }
+          
+        }
+        .about {
+          font-family: $primaryFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 1.7rem;
+          color: #FFFFFF;
+        }
+      }
+    }
+    .container {
+      form {
+        fieldset {
+          input {}
+        }
+      }
+    }
+  
+  }
+  
+}

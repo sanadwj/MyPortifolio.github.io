@@ -1,13 +1,16 @@
 .portifolio {
+  box-shadow: 0px 2px -24px rgba(0, 0, 0, -0.25);
   .pgroup {
     margin: 0;
     .name2sec {
+      z-index: 5;
       margin-right: 0;
       @include flex(row);
       justify-content: flex-start;
       align-items: flex-start;
       margin-top: 3rem;
       .number2 {
+        z-index: 5;
         font-family: $primaryFont;
         text-align: right;
         font-style: normal;
@@ -21,6 +24,7 @@
         margin-left: 4rem;
       }
       .mywork {
+        z-index: 5;
         @include flex(column);
         margin-top: 5rem;
         .myrecent {
@@ -33,6 +37,7 @@
           color: #ffffff;
         }
         .name2 {
+          z-index: 5;
           font-family: $secondryFont;
           font-style: normal;
           font-weight: normal;
@@ -48,6 +53,7 @@
       }
     }
     .boxes {
+      z-index: 5;
       margin-top: 4rem;
      
       display: grid;
