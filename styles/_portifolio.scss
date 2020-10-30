@@ -59,7 +59,8 @@
       display: grid;
       grid-template: 3fr 3fr/ 3fr 3fr;
       .box1 {
-        background-color: black;
+        background: #212123;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
         height: 25rem;
       }
       .fbox {
@@ -67,25 +68,30 @@
         grid-template: 2fr 3fr;
 
         .box2 {
-          background-color: rgb(156, 86, 86);
+          background: #212123;
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
         }
         .box3 {
-          background-color: rgb(102, 121, 34);
+          background: #212123;
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
         }
       }
       .sbox {
         display: grid;
         grid-template: 3fr 2fr;
         .box4 {
-          background-color: rgb(77, 108, 248);
+          background: #212123;
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
         }
 
         .box5 {
-          background-color: rgb(161, 212, 189);
+          background: #212123;
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
         }
       }
       .box6 {
-        background-color: rgb(111, 79, 126);
+        background: #212123;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
       }
     }
   }
