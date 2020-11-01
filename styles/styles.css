@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap");
 body, html {
-  z-index: -2;
   background: #1b1b1d;
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
@@ -102,7 +101,7 @@ body, html {
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
   -ms-flex-line-pack: start;
       align-content: flex-start;
   -ms-flex-item-align: start;
@@ -194,6 +193,7 @@ body, html {
 }
 
 .hello .secondg .sidenave {
+  margin-right: 5rem;
   font-family: "Poppins";
 }
 
@@ -212,6 +212,111 @@ body, html {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 767px) {
+  .hello {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hello .firstg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hello .firstg .first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 2rem;
+  }
+  .hello .firstg .first .number1 {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .hello .firstg .first .number1 h1 {
+    margin: 0 0;
+  }
+  .hello .firstg .first .myname {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 1rem;
+  }
+  .hello .firstg .first .myname .helloim {
+    margin: 1rem;
+  }
+  .hello .firstg .first .myname .name1 {
+    font-size: 1rem;
+  }
+  .hello .firstg .first .myname .about {
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+  .hello .firstg .first .myname .seework {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .hello .firstg .first .myname .seework .sline {
+    margin: 1rem;
+  }
+  .hello .secondg {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+}
+
 .portifolio {
   -webkit-box-shadow: 0px 2px -24px rgba(0, 0, 0, 0);
           box-shadow: 0px 2px -24px rgba(0, 0, 0, 0);
@@ -222,7 +327,6 @@ body, html {
 }
 
 .portifolio .pgroup .name2sec {
-  z-index: 5;
   margin-right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,7 +351,6 @@ body, html {
 }
 
 .portifolio .pgroup .name2sec .number2 {
-  z-index: 5;
   font-family: "Poppins";
   text-align: right;
   font-style: normal;
@@ -262,7 +365,6 @@ body, html {
 }
 
 .portifolio .pgroup .name2sec .mywork {
-  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,7 +394,6 @@ body, html {
 }
 
 .portifolio .pgroup .name2sec .mywork .name2 {
-  z-index: 5;
   font-family: "Playerfair";
   font-style: normal;
   font-weight: normal;
@@ -307,7 +408,7 @@ body, html {
 }
 
 .portifolio .pgroup .boxes {
-  z-index: 5;
+  font-family: "Poppins";
   margin-top: 4rem;
   display: -ms-grid;
   display: grid;
@@ -317,10 +418,45 @@ body, html {
 }
 
 .portifolio .pgroup .boxes .box1 {
+  padding: 1rem;
   background: #212123;
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   height: 25rem;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  background-image: url(./ghraphic/opinions.png);
+  background-size: cover;
+}
+
+.portifolio .pgroup .boxes .box1 .pname {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 80%;
+  /* identical to box height, or 48px */
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .boxes .box1 .lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.portifolio .pgroup .boxes .box1 .lang div {
+  margin: 1rem;
+  color: #FFFFFF;
 }
 
 .portifolio .pgroup .boxes .fbox {
@@ -330,15 +466,81 @@ body, html {
 }
 
 .portifolio .pgroup .boxes .fbox .box2 {
+  padding: 1rem;
   background: #212123;
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  background-image: url(./ghraphic/porti.png);
+  background-size: cover;
+}
+
+.portifolio .pgroup .boxes .fbox .box2 .pname {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 80%;
+  /* identical to box height, or 48px */
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .boxes .fbox .box2 .lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.portifolio .pgroup .boxes .fbox .box2 .lang div {
+  margin: 1rem;
+  color: #FFFFFF;
 }
 
 .portifolio .pgroup .boxes .fbox .box3 {
+  padding: 1rem;
   background: #212123;
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  background-image: url(./ghraphic/todo.png);
+  background-size: contain;
+}
+
+.portifolio .pgroup .boxes .fbox .box3 .pname {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 80%;
+  /* identical to box height, or 48px */
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .boxes .fbox .box3 .lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.portifolio .pgroup .boxes .fbox .box3 .lang div {
+  margin: 1rem;
+  color: #FFFFFF;
 }
 
 .portifolio .pgroup .boxes .sbox {
@@ -348,147 +550,222 @@ body, html {
 }
 
 .portifolio .pgroup .boxes .sbox .box4 {
+  padding: 1rem;
   background: #212123;
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  background-image: url(./ghraphic/likeyelp.png);
+}
+
+.portifolio .pgroup .boxes .sbox .box4 .pname {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 80%;
+  /* identical to box height, or 48px */
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .boxes .sbox .box4 .lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.portifolio .pgroup .boxes .sbox .box4 .lang div {
+  margin: 1rem;
+  color: #FFFFFF;
 }
 
 .portifolio .pgroup .boxes .sbox .box5 {
+  padding: 1rem;
   background: #212123;
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  background-image: url(./ghraphic/chore.png);
+  background-size: cover;
+}
+
+.portifolio .pgroup .boxes .sbox .box5 .pname {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 80%;
+  /* identical to box height, or 48px */
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .boxes .sbox .box5 .lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.portifolio .pgroup .boxes .sbox .box5 .lang div {
+  margin: 1rem;
+  color: #FFFFFF;
 }
 
 .portifolio .pgroup .boxes .box6 {
+  padding: 1rem;
   background: #212123;
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  background-image: url(./ghraphic/blog.png);
+}
+
+.portifolio .pgroup .boxes .box6 .pname {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 80%;
+  /* identical to box height, or 48px */
+  color: #FFFFFF;
+}
+
+.portifolio .pgroup .boxes .box6 .lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.portifolio .pgroup .boxes .box6 .lang div {
+  margin: 1rem;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 767px) {
+  .portifolio .pgroup .name2sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 3rem;
+  }
+  .portifolio .pgroup .name2sec .number2 {
+    font-size: 2rem;
+  }
+  .portifolio .pgroup .name2sec .number2 h1 {
+    text-align: center;
+  }
+  .portifolio .pgroup .name2sec .mywork {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 1rem;
+  }
+  .portifolio .pgroup .name2sec .mywork .myrecent {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .portifolio .pgroup .name2sec .mywork .name2 {
+    font-size: 1rem;
+  }
+  .portifolio .pgroup .boxes {
+    margin-top: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .portifolio .pgroup .boxes .box1 {
+    height: 10rem;
+    width: 100%;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  .portifolio .pgroup .boxes .fbox {
+    width: 100%;
+  }
+  .portifolio .pgroup .boxes .fbox .box2 {
+    height: 10rem;
+  }
+  .portifolio .pgroup .boxes .fbox .box3 {
+    height: 10rem;
+  }
+  .portifolio .pgroup .boxes .sbox {
+    width: 100%;
+  }
+  .portifolio .pgroup .boxes .sbox .box4 {
+    height: 10rem;
+  }
+  .portifolio .pgroup .boxes .sbox .box5 {
+    height: 10rem;
+  }
+  .portifolio .pgroup .boxes .box6 {
+    height: 10rem;
+    width: 100%;
+  }
 }
 
 .aboutme {
-  z-index: 5;
   margin: 5rem 5rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 6fr 3fr;
   -ms-grid-columns: 3fr 3fr;
       grid-template: 6fr 3fr/ 3fr 3fr;
-}
-
-.aboutme .skills {
-  font-family: "Poppins";
-  height: 6rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 120fr 1fr;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template: 120fr 1fr/1fr 1fr;
-}
-
-.aboutme .skills img {
-  margin: 1rem;
-  height: 2rem;
-}
-
-.aboutme .skills .svg {
-  border: 1px none wheat;
-  width: 4rem;
-  margin: 0.5rem;
-  border-radius: 25%;
-  background-color: rgba(187, 192, 243, 0.1);
-  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-  z-index: 1;
-}
-
-.aboutme .skills .svg img {
-  margin: 1rem;
-}
-
-.aboutme .skills .fskill {
-  display: -ms-grid;
-  display: grid;
-}
-
-.aboutme .skills .fskill .skill1 {
-  background-color: black;
-  margin: 1rem;
-  background: #212123;
-  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-
-.aboutme .skills .fskill .skill1 .to {
-  color: white;
-  margin: 0 1rem;
-}
-
-.aboutme .skills .fskill .skill1 .in ul {
-  color: white;
-  list-style: none;
-}
-
-.aboutme .skills .fskill .skill2 {
-  background-color: #df5e5e;
-  margin: 1rem;
-  background: #212123;
-  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-
-.aboutme .skills .fskill .skill2 .to {
-  color: white;
-  margin: 0 1rem;
-}
-
-.aboutme .skills .fskill .skill2 .in ul {
-  color: white;
-  list-style: none;
-}
-
-.aboutme .skills .sskill {
-  display: -ms-grid;
-  display: grid;
-}
-
-.aboutme .skills .sskill .skill3 {
-  background-color: #445f41;
-  margin: 1rem;
-  background: #212123;
-  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-
-.aboutme .skills .sskill .skill3 .to {
-  color: white;
-  margin: 0 1rem;
-}
-
-.aboutme .skills .sskill .skill3 .in ul {
-  color: white;
-  list-style: none;
-}
-
-.aboutme .skills .sskill .skill4 {
-  background-color: #20155e;
-  margin: 1rem;
-  background: #212123;
-  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-
-.aboutme .skills .sskill .skill4 .to {
-  color: white;
-  margin: 0 1rem;
-}
-
-.aboutme .skills .sskill .skill4 .in ul {
-  color: white;
-  list-style: none;
 }
 
 .aboutme .aabout {
@@ -593,6 +870,233 @@ body, html {
   font-weight: 500;
   font-size: 18px;
   color: #DB4747;
+}
+
+.aboutme .skills {
+  font-family: "Poppins";
+  height: 6rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 120fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template: 120fr 1fr/1fr 1fr;
+}
+
+.aboutme .skills img {
+  margin: 1rem;
+  height: 2rem;
+}
+
+.aboutme .skills .svg {
+  border: 1px none wheat;
+  width: 4rem;
+  margin: 0.5rem;
+  border-radius: 25%;
+  background-color: rgba(187, 192, 243, 0.1);
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+}
+
+.aboutme .skills .svg img {
+  margin: 1rem;
+}
+
+.aboutme .skills .fskill {
+  display: -ms-grid;
+  display: grid;
+}
+
+.aboutme .skills .fskill .skill1 {
+  background-color: black;
+  margin: 1rem;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.aboutme .skills .fskill .skill1 .to {
+  color: white;
+  margin: 0 1rem;
+}
+
+.aboutme .skills .fskill .skill1 .in ul {
+  color: white;
+  list-style: none;
+}
+
+.aboutme .skills .fskill .skill2 {
+  background-color: #df5e5e;
+  margin: 1rem;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.aboutme .skills .fskill .skill2 .to {
+  color: white;
+  margin: 0 1rem;
+}
+
+.aboutme .skills .fskill .skill2 .in ul {
+  color: white;
+  list-style: none;
+}
+
+.aboutme .skills .sskill {
+  display: -ms-grid;
+  display: grid;
+}
+
+.aboutme .skills .sskill .skill3 {
+  background-color: #445f41;
+  margin: 1rem;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.aboutme .skills .sskill .skill3 .to {
+  color: white;
+  margin: 0 1rem;
+}
+
+.aboutme .skills .sskill .skill3 .in ul {
+  color: white;
+  list-style: none;
+}
+
+.aboutme .skills .sskill .skill4 {
+  background-color: #20155e;
+  margin: 1rem;
+  background: #212123;
+  -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.aboutme .skills .sskill .skill4 .to {
+  color: white;
+  margin: 0 1rem;
+}
+
+.aboutme .skills .sskill .skill4 .in ul {
+  color: white;
+  list-style: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .aboutme {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutme .aabout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1rem;
+    height: auto;
+  }
+  .aboutme .aabout .number3 {
+    font-size: 2rem;
+  }
+  .aboutme .aabout .mywork {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutme .aabout .mywork .myrecent {
+    font-size: 1rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .aboutme .aabout .mywork .name {
+    font-size: 1rem;
+  }
+  .aboutme .aabout .mywork .about {
+    font-size: 1rem;
+  }
+  .aboutme .aabout .mywork .seework {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+  }
+  .aboutme .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .aboutme .skills .fskill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .aboutme .skills .sskill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
 }
 
 .contact {
@@ -708,5 +1212,66 @@ body, html {
   font-size: 18px;
   line-height: 1.7rem;
   color: #FFFFFF;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact .forth .num4sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .forth .num4sec .number4 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .contact .forth .num4sec .number4 h1 {
+    margin: 0;
+  }
+  .contact .forth .num4sec .mywork {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  .contact .forth .num4sec .mywork .myrecent {
+    font-size: 1rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .contact .forth .num4sec .mywork .name1 {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+  .contact .forth .num4sec .mywork .about {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.7rem;
+    color: #FFFFFF;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

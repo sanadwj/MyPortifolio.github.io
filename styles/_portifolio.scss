@@ -3,14 +3,14 @@
   .pgroup {
     margin: 0;
     .name2sec {
-      z-index: 5;
+      
       margin-right: 0;
       @include flex(row);
       justify-content: flex-start;
       align-items: flex-start;
       margin-top: 3rem;
       .number2 {
-        z-index: 5;
+        
         font-family: $primaryFont;
         text-align: right;
         font-style: normal;
@@ -24,7 +24,7 @@
         margin-left: 4rem;
       }
       .mywork {
-        z-index: 5;
+        
         @include flex(column);
         margin-top: 5rem;
         .myrecent {
@@ -37,7 +37,7 @@
           color: #ffffff;
         }
         .name2 {
-          z-index: 5;
+          
           font-family: $secondryFont;
           font-style: normal;
           font-weight: normal;
@@ -53,45 +53,254 @@
       }
     }
     .boxes {
-      z-index: 5;
+      font-family: $primaryFont;
       margin-top: 4rem;
      
       display: grid;
       grid-template: 3fr 3fr/ 3fr 3fr;
       .box1 {
+        padding: 1rem;
         background: #212123;
         box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
         height: 25rem;
+        transform: translateX(-100%);
+        background-image: url(./ghraphic/opinions.png);
+        background-size: cover;
+        .pname {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 2rem;
+          line-height: 80%;
+          /* identical to box height, or 48px */
+
+
+          color: #FFFFFF;
+        }
+        .lang {
+          @include flex(row);
+          div {
+            margin: 1rem;
+            color: #FFFFFF;
+            
+          }
+          
+        }
       }
       .fbox {
         display: grid;
         grid-template: 2fr 3fr;
 
         .box2 {
+          padding: 1rem;
           background: #212123;
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          background-image: url(./ghraphic/porti.png);
+          background-size: cover;
+          .pname {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 80%;
+            /* identical to box height, or 48px */
+  
+  
+            color: #FFFFFF;
+          }
+          .lang {
+            @include flex(row);
+            div {
+              margin: 1rem;
+              color: #FFFFFF;
+              
+            }
+            
+          }
         }
         .box3 {
+          padding: 1rem;
           background: #212123;
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          background-image: url(./ghraphic/todo.png);
+          background-size: contain;
+          
+          .pname {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 80%;
+            /* identical to box height, or 48px */
+  
+  
+            color: #FFFFFF;
+          }
+          .lang {
+            @include flex(row);
+            div {
+              margin: 1rem;
+              color: #FFFFFF;
+              
+            }
+            
+          }
         }
       }
       .sbox {
         display: grid;
         grid-template: 3fr 2fr;
         .box4 {
+          
+          padding: 1rem;
           background: #212123;
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          background-image: url(./ghraphic/likeyelp.png);
+          
+          .pname {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 80%;
+            /* identical to box height, or 48px */
+  
+  
+            color: #FFFFFF;
+          }
+          .lang {
+            @include flex(row);
+            div {
+              margin: 1rem;
+              color: #FFFFFF;
+              
+            }
+            
+          }
         }
 
         .box5 {
+          padding: 1rem;
           background: #212123;
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+          background-image: url(./ghraphic/chore.png);
+          background-size: cover;
+          .pname {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 80%;
+            /* identical to box height, or 48px */
+  
+  
+            color: #FFFFFF;
+          }
+          .lang {
+            @include flex(row);
+            div {
+              margin: 1rem;
+              color: #FFFFFF;
+              
+            }
+            
+          }
         }
       }
       .box6 {
+        padding: 1rem;
         background: #212123;
         box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+        background-image: url(./ghraphic/blog.png);
+        .pname {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 2rem;
+          line-height: 80%;
+          /* identical to box height, or 48px */
+
+
+          color: #FFFFFF;
+        }
+        .lang {
+          @include flex(row);
+          div {
+            margin: 1rem;
+            color: #FFFFFF;
+            
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .portifolio {
+   
+    .pgroup {
+     
+      .name2sec {
+       
+        @include flex(column);
+        
+        margin-top: 3rem;
+        .number2 {
+          
+          font-size: 2rem;
+          h1 {
+            text-align: center;
+          }
+         
+        }
+        .mywork {
+         
+          @include flex(column);
+          margin-top: 1rem;
+          .myrecent {
+            align-self: center;
+            
+          }
+          .name2 {
+           
+            font-size: 1rem;
+            
+          }
+        }
+      }
+      .boxes {
+        margin-top: 4rem;
+        display: flex;
+        @include flex(column);
+        width: 100%;
+        
+        .box1 {
+          
+          height: 10rem;
+          width: 100%;
+          transform: translateX(-100%);
+        }
+        .fbox {
+        
+          
+          width: 100%;
+          .box2 {
+            height: 10rem;
+          }
+          .box3 {
+            height: 10rem;
+          }
+        }
+        .sbox {
+          width: 100%;
+          .box4 {
+            height: 10rem;
+          }
+  
+          .box5 {
+            height: 10rem;
+          }
+        }
+        .box6 {
+          height: 10rem;
+          width: 100%;
+        }
       }
     }
   }

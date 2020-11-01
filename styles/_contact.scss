@@ -68,3 +68,53 @@
   }
   
 }
+
+@media only screen and (max-width: 767px) {
+  .contact {
+  
+   
+    .forth {
+ 
+      .num4sec {
+        @include flex(column);
+        align-items: center;
+        justify-content: center;
+        .number4 {
+          
+          font-size: 2rem;
+          margin: 0;
+          h1 {
+            margin: 0;
+          }
+         
+          
+        }
+        .mywork {
+          @include flex(column);
+          margin-top: 0.5rem;
+          .myrecent {
+            font-size: 1rem;
+            align-self: center;
+          }
+          .name1 {
+            margin: 1rem;
+            font-size: 1rem;
+            
+            
+          }
+          .about {
+            font-family: $primaryFont;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 1.7rem;
+            color: #FFFFFF;
+          }
+        }
+      }
+     
+    
+    }
+    
+  }
+}

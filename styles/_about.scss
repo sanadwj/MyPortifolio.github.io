@@ -1,9 +1,82 @@
 .aboutme {
-  z-index: 5;
+  
   margin: 5rem 5rem;
   display: grid;
   grid-template: 6fr 3fr/ 3fr 3fr;
-  
+  .aabout {
+   
+    margin: 1rem;
+    .number3 {
+      font-family: $primaryFont;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 3rem;
+      line-height: 9rem;
+      text-align: left;
+      color: #FFFFFF;
+      opacity: 0.2;
+      h1 {
+        margin: 0 1rem 0rem 0;
+      }
+    }
+    .mywork {
+      @include flex(column);
+      
+      .myrecent {
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        align-content: flex-start;
+        align-self: start;
+        color: #FFFFFF;
+        h5 {
+          margin: 0;
+        }
+       
+
+      }
+      .name {
+        font-family: $secondryFont;
+        margin-top: 2rem;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3rem;
+        line-height: 150%;
+        color: #FFFFFF;
+        h1 {
+          margin: 0;
+        }
+        
+      }
+      .about {
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.7rem;
+        color: #FFFFFF;
+      }
+      .seework {
+        
+        justify-content: flex-start;
+        
+        width: 100%;
+        .seemywork {
+          @include flex(row);
+          font-family: $thirdFont;
+          margin-right: 1rem;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          color: #DB4747;
+        }
+        
+        
+        
+      }
+    }
+  }
   
   .skills {
     font-family: $primaryFont;
@@ -22,7 +95,7 @@
       background-color: rgba(187, 192, 243, 0.1);
       box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
       
-      z-index: 1;
+     
       img {
         margin: 1rem;
       }
@@ -111,78 +184,90 @@
     
     
   }
-  .aabout {
-   
-    margin: 1rem;
-    .number3 {
-      font-family: $primaryFont;
-      font-style: normal;
-      font-weight: 200;
-      font-size: 3rem;
-      line-height: 9rem;
-      text-align: left;
-      color: #FFFFFF;
-      opacity: 0.2;
-      h1 {
-        margin: 0 1rem 0rem 0;
-      }
-    }
-    .mywork {
-      @include flex(column);
-      
-      .myrecent {
-        font-family: $primaryFont;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        align-content: flex-start;
-        align-self: start;
-        color: #FFFFFF;
-        h5 {
-          margin: 0;
-        }
-       
+  
+}
 
+@media only screen and (max-width: 767px) {
+  .aboutme {
+    height: auto;
+    @include flex(column);
+    .aabout {
+      @include flex(column);
+      margin: 1rem;
+      height: auto;
+      .number3 {
+      
+        font-size: 2rem;
+        
+       
+        
       }
-      .name {
-        font-family: $secondryFont;
-        margin-top: 2rem;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 3rem;
-        line-height: 150%;
-        color: #FFFFFF;
-        h1 {
-          margin: 0;
+      .mywork {
+        @include flex(column);
+        
+        .myrecent {
+         
+          font-size: 1rem;
+          
+          align-self: center;
+         
+         
+  
         }
+        .name {
         
-      }
-      .about {
-        font-family: $primaryFont;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 1.7rem;
-        color: #FFFFFF;
-      }
-      .seework {
-        
-        justify-content: flex-start;
-        
-        width: 100%;
-        .seemywork {
-          @include flex(row);
-          font-family: $thirdFont;
-          margin-right: 1rem;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 18px;
-          color: #DB4747;
+          font-size: 1rem;
+          
+          
         }
-        
-        
-        
+        .about {
+          
+          font-size: 1rem;
+          
+        }
+        .seework {
+          
+          justify-content: flex-start;
+          
+          width: 100%;
+          
+          
+          
+          
+        }
       }
     }
+    
+    .skills {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      
+      
+      
+      .fskill {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+       
+        
+        
+      }
+      .sskill {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+      }
+      
+      
+      
+      
+    }
+    
   }
 }
