@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="hello">
+  <div id="hi" class="hello">
     
     
     <div class="firstg">
@@ -52,16 +52,16 @@
       <div class="secondg">
         <div class="sidenave">
           <div class="alink">
-            <a href="#">Hello</a>
+            <a href="#hi">Hello</a>
           </div>
           <div class="alink">
-            <a href="#">Portifolio</a>
+            <a href="#port">Portifolio</a>
           </div>
           <div class="alink">
-            <a href="#">Services</a>
+            <a href="#ser">Services</a>
           </div>
           <div class="alink">
-            <a href="#">Contant</a>
+            <a href="#con">Contant</a>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@
         </div>
       </div>
       
-      <div class="boxes">
+      <div id="port" class="boxes">
         <div class="box1">
           <div class="pname">
             <h3>Projectname</h3>
@@ -318,7 +318,7 @@
      
       
     </div>
-    <div class="aabout">
+    <div id="ser" class="aabout">
       <div class="number3">
         <h1>03</h1>
       </div>
@@ -364,22 +364,16 @@
         </div>
       </div>
       
-      <div class=”container”> 
-        <form id="contact" action=”[YOUR_URL]" method=”GET”>
-          
-          
-            <input name="webtask_no_cache" type="hidden" value="1">
-          
-            <input name=”name” style="margin-bottom: 1rem; background-color: black; box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25); height: 3rem; width: 100%; border: none;" placeholder="Your name" type=”text” tabindex=”1" required autofocus>
-         
-          
-            <input name=”from” style="margin-bottom: 1rem; background-color: black; box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25); height: 3rem; width: 100%; border: none;" placeholder="Your Email Address" type=”email” tabindex=”2" required>
-         
-            <textarea name=”message” style="margin-bottom: 1rem; background-color: black; box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25); height: 3rem; width: 100%; border: none;" placeholder="Your Message Here" tabindex=”5" required></textarea>
-          
-            <button name=”submit” style="margin-bottom: 1rem; background-color: #DB4747; box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25); height: 3rem; width: 100%; border: none;" type=”submit” id=”contact-submit”>Submit</button>
-          
-        </form>
+      <div id="con" class=”container”> 
+        
+        <form action="https://submit-form.com/37k06MDD" target="_self">
+          <!-- All elements must have a name attribute -->
+          <input type="text" name="name" placeholder="name" style="color: white; margin-bottom: 1rem; background-color: black; box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25); height: 3rem; width: 100%; border: none;">
+          <textarea name="message" placeholder="Message" style="color: white;  margin-bottom: 1rem; background-color: black; box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25); height: 3rem; width: 100%; border: none;"></textarea>
+          <input type="text" name="email" placeholder="Email" style=" color: white; margin-bottom: 1rem; background-color: black; box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25); height: 3rem; width: 100%; border: none;">
+          <!-- A button of type submit -->
+          <button type="submit" style="color: white; margin-bottom: 1rem; background-color: #DB4747; box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25); height: 3rem; width: 100%; border: none;">Submit</button>
+       </form>
       </div>
       <div class="seework">
         <div class="seemywork">
@@ -394,8 +388,8 @@
       
     </div>
     </div>
-    
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
   
 </body>
 </html>

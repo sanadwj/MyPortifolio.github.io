@@ -28,6 +28,8 @@ body, html {
 }
 
 .hello .firstg {
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,7 +59,7 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 5rem;
+  margin-top: 2rem;
   width: 50%;
   -webkit-box-align: start;
       -ms-flex-align: start;
