@@ -281,6 +281,7 @@ body, html {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 1rem;
+    width: 90%;
   }
   .hello .firstg .first .myname .helloim {
     margin: 1rem;
@@ -722,6 +723,12 @@ div {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
+    overflow-x: hidden;
+  }
+  .portifolio .pgroup .boxes .lang {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .portifolio .pgroup .boxes .box1 {
     height: 10rem;
@@ -734,6 +741,7 @@ div {
   }
   .portifolio .pgroup .boxes .fbox .box2 {
     height: 10rem;
+    width: 100%;
   }
   .portifolio .pgroup .boxes .fbox .box3 {
     height: 10rem;
@@ -866,6 +874,11 @@ div {
   color: #DB4747;
 }
 
+.aboutme .aabout .mywork .seework .seemywork a {
+  text-decoration: none;
+  color: #DB4747;
+}
+
 .aboutme .skills {
   font-family: "Poppins";
   height: 6rem;
@@ -984,6 +997,7 @@ div {
 @media only screen and (max-width: 767px) {
   .aboutme {
     height: auto;
+    margin: 1rem auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1073,9 +1087,9 @@ div {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     width: 100%;
   }
   .aboutme .skills .sskill {
@@ -1209,6 +1223,12 @@ div {
 }
 
 @media only screen and (max-width: 767px) {
+  .contact {
+    margin: 0 auto;
+  }
+  .contact .forth {
+    width: 80%;
+  }
   .contact .forth .num4sec {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -273,6 +273,11 @@
         display: flex;
         @include flex(column);
         width: 100%;
+        overflow-x: hidden;
+        
+        .lang {
+          display: flex;
+        }
         
         .box1 {
           
@@ -286,6 +291,7 @@
           width: 100%;
           .box2 {
             height: 10rem;
+            width: 100%;
           }
           .box3 {
             height: 10rem;

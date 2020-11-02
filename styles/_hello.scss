@@ -131,6 +131,7 @@
   
         @include flex(column);
         margin-top: 2rem;
+       
         .number1 {
           
           font-size: 2rem;
@@ -145,6 +146,8 @@
         .myname {
           @include flex(column);
           margin-top: 1rem;
+          
+          width: 90%;
           .helloim {
            margin: 1rem;
   

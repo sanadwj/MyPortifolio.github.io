@@ -70,6 +70,10 @@
           font-weight: 500;
           font-size: 18px;
           color: #DB4747;
+          a {
+            text-decoration: none;
+            color: #DB4747;
+          }
         }
         
         
@@ -190,11 +194,13 @@
 @media only screen and (max-width: 767px) {
   .aboutme {
     height: auto;
+    margin: 1rem auto;
     @include flex(column);
     .aabout {
       @include flex(column);
       margin: 1rem;
       height: auto;
+      
       .number3 {
       
         font-size: 2rem;
@@ -250,7 +256,7 @@
       .fskill {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
         
        
