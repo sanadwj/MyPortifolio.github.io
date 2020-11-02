@@ -71,13 +71,11 @@
           font-weight: 300;
           font-size: 2rem;
           line-height: 80%;
-          /* identical to box height, or 48px */
-
-
           color: #FFFFFF;
         }
         .lang {
           @include flex(row);
+          ma
           div {
             margin: 1rem;
             color: #FFFFFF;
@@ -96,18 +94,19 @@
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           background-image: url(./ghraphic/porti.png);
           background-size: cover;
+          transform: translateX(100%);
           .pname {
             font-style: normal;
             font-weight: 300;
             font-size: 2rem;
-            line-height: 80%;
+            line-height: 40%;
             /* identical to box height, or 48px */
   
   
             color: #FFFFFF;
           }
           .lang {
-            @include flex(row);
+            
             div {
               margin: 1rem;
               color: #FFFFFF;
@@ -121,7 +120,8 @@
           background: #212123;
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           background-image: url(./ghraphic/todo.png);
-          background-size: contain;
+          background-size: auto;
+          transform: translateX(100%);
           
           .pname {
             font-style: normal;
@@ -137,7 +137,7 @@
             @include flex(row);
             div {
               margin: 1rem;
-              color: #FFFFFF;
+              color:black;
               
             }
             
@@ -153,6 +153,7 @@
           background: #212123;
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           background-image: url(./ghraphic/likeyelp.png);
+          transform: translateX(-100%);
           
           .pname {
             font-style: normal;
@@ -181,6 +182,7 @@
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           background-image: url(./ghraphic/chore.png);
           background-size: cover;
+          transform: translateX(-100%);
           .pname {
             font-style: normal;
             font-weight: 300;
@@ -207,6 +209,8 @@
         background: #212123;
         box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
         background-image: url(./ghraphic/blog.png);
+        transform: translateX(100%);
+       
         .pname {
           font-style: normal;
           font-weight: 300;
@@ -221,7 +225,7 @@
           @include flex(row);
           div {
             margin: 1rem;
-            color: #FFFFFF;
+            color:black;
             
           }
           

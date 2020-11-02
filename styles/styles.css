@@ -434,7 +434,6 @@ body, html {
   font-weight: 300;
   font-size: 2rem;
   line-height: 80%;
-  /* identical to box height, or 48px */
   color: #FFFFFF;
 }
 
@@ -454,7 +453,8 @@ body, html {
           flex-direction: row;
 }
 
-.portifolio .pgroup .boxes .box1 .lang div {
+.portifolio .pgroup .boxes .box1 .lang ma
+div {
   margin: 1rem;
   color: #FFFFFF;
 }
@@ -472,31 +472,17 @@ body, html {
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   background-image: url(./ghraphic/porti.png);
   background-size: cover;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }
 
 .portifolio .pgroup .boxes .fbox .box2 .pname {
   font-style: normal;
   font-weight: 300;
   font-size: 2rem;
-  line-height: 80%;
+  line-height: 40%;
   /* identical to box height, or 48px */
   color: #FFFFFF;
-}
-
-.portifolio .pgroup .boxes .fbox .box2 .lang {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 .portifolio .pgroup .boxes .fbox .box2 .lang div {
@@ -510,7 +496,9 @@ body, html {
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   background-image: url(./ghraphic/todo.png);
-  background-size: contain;
+  background-size: auto;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }
 
 .portifolio .pgroup .boxes .fbox .box3 .pname {
@@ -540,7 +528,7 @@ body, html {
 
 .portifolio .pgroup .boxes .fbox .box3 .lang div {
   margin: 1rem;
-  color: #FFFFFF;
+  color: black;
 }
 
 .portifolio .pgroup .boxes .sbox {
@@ -555,6 +543,8 @@ body, html {
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   background-image: url(./ghraphic/likeyelp.png);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .portifolio .pgroup .boxes .sbox .box4 .pname {
@@ -594,6 +584,8 @@ body, html {
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   background-image: url(./ghraphic/chore.png);
   background-size: cover;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .portifolio .pgroup .boxes .sbox .box5 .pname {
@@ -632,6 +624,8 @@ body, html {
   -webkit-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
   background-image: url(./ghraphic/blog.png);
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
 }
 
 .portifolio .pgroup .boxes .box6 .pname {
@@ -661,7 +655,7 @@ body, html {
 
 .portifolio .pgroup .boxes .box6 .lang div {
   margin: 1rem;
-  color: #FFFFFF;
+  color: black;
 }
 
 @media only screen and (max-width: 767px) {
